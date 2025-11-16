@@ -1,6 +1,6 @@
-import ralImage from "./assets/mh3-247-ral-monsoon-mage.png";
+import ralImage from "../assets/mh3-247-ral-monsoon-mage.png";
 
-function App() {
+function HomePage() {
 	return (
 		<div className="container">
 			<div className="row">
@@ -22,7 +22,7 @@ function App() {
 			</div>
 			<div className="row align-items-center justify-content-center">
 				<div className="col-sm-auto">
-					<img src={ralImage} className="ral_card_home d-block mx-auto" alt="An image of Ral, Monsoon Mage, the Magic: the Gathering card."/>
+					<img src={ralImage} className="ral_card_home d-block mx-auto shadow" alt="An image of Ral, Monsoon Mage, the Magic: the Gathering card."/>
 				</div>
 				<div className="col-sm-3">
 					<p className="fs-6">An <strong>Izzet spellslinger</strong> deck designed to strategically jam
@@ -40,4 +40,4 @@ function App() {
 	);
 }
 
-export default App;
+export default HomePage;
