@@ -4,7 +4,7 @@ function NavBar() {
 	return (
 		<nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark border-bottom border-info border-2">
 			<div className="container-fluid">
-				<Link className="navbar-brand" to="/">⚡ Ral cEDH</Link>
+				<Link className="navbar-brand" to="/">🧙 Harry's T&T cEDH Tracker</Link>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
@@ -14,14 +14,14 @@ function NavBar() {
 							<Link className="nav-link active" to="/">Home</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" to="decklist">Decklist</Link>
+							<Link className="nav-link" to="decklist">Current List</Link>
 						</li>
 						<li className="nav-item">
 							<Link className="nav-link" to="/">Primer</Link>
 						</li>
 					</ul>
 					<span className="navbar-text fst-italic">
-						"Taming a storm is like taming a wild beast; once you understand its wants and needs, you can direct it any way you like."
+						"When you go where the current takes you, you'll never run short of things to discover." -Thrasios, Triton Hero
 					</span>
 				</div>
 			</div>
