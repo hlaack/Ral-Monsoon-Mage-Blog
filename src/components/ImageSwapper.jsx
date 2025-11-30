@@ -33,7 +33,7 @@ export default function ImageSwapper() {
 					transform: "translate(-45px, -45px)",
 					zIndex: 0,
 					transition: "all 0.3s ease-in-out",
-					opacity: front === "A" ? 1 : 0.6,
+					opacity: 0.6,
 				}}
 			/>
 

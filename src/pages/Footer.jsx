@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 function Footer () {
 	return (
@@ -6,13 +6,34 @@ function Footer () {
 			<div className="container-fluid">
 				<ul className="navbar-nav mx-auto text-center mb-2 mb-lg-0">
 					<li className="nav-item">
-						<Link className="nav-link active" to="/">Home</Link>
+						<NavLink
+							className={({isActive}) => {
+								return isActive ? "nav-link active" : "nav-link";
+							}}
+							to="/"
+						>
+							Home
+						</NavLink>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link" to="decklist">Current List</Link>
+						<NavLink
+							className={({isActive}) => {
+								return isActive ? "nav-link active" : "nav-link";
+							}}
+							to="decklist"
+						>
+							Decklist
+						</NavLink>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link" to="/">Primer</Link>
+						<NavLink
+							className={({isActive}) => {
+								return isActive ? "nav-link active" : "nav-link";
+							}}
+							to="primer"
+						>
+							Primer
+						</NavLink>
 					</li>
 					<li className="nav-item">
 						&copy; Harry L. {new Date().getFullYear()}

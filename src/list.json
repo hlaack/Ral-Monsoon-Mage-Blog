@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Thrasios, Triton Hero",
+    "type": "Commander"
+  },
+  {
+    "name": "Tymna the Weaver",
+    "type": "Commander"
+  },
+  {
+    "name": "Cloud of Faeries",
+    "type": "Creature"
+  },
+  {
+    "name": "Avacyn's Pilgrim",
+    "type": "Creature"
+  },
+  {
+    "name": "Faeburrow Elder",
+    "type": "Creature"
+  },
+  {
+    "name": "Hazel's Brewmaster",
+    "type": "Creature"
+  },
+  {
+    "name": "Biomancer's Familiar",
+    "type": "Creature"
+  },
+  {
+    "name": "Eternal Witness",
+    "type": "Creature"
+  },
+  {
+    "name": "Destiny Spinner",
+    "type": "Creature"
+  },
+  {
+    "name": "Hidden Strings",
+    "type": "Sorcery"
+  },
+  {
+    "name": "Banishing Knack",
+    "type": "Instant"
+  },
+  {
+    "name": "God-Pharaoh's Statue",
+    "type": "Artifact"
+  },
+  {
+    "name": "Nature's Chosen",
+    "type": "Enchantment"
+  },
+  {
+    "name": "Exotic Orchard",
+    "type": "Land"
+  }
+]
