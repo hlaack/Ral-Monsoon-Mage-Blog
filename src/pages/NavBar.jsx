@@ -4,7 +4,7 @@ function NavBar() {
 	return (
 		<nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark border-bottom border-info border-2">
 			<div className="container-fluid">
-				<Link className="navbar-brand" to="/">🧙 Harry's T&T cEDH Tracker</Link>
+				<Link className="navbar-brand" to="/">🧙 Harry's Rog-Thras Tracker</Link>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>

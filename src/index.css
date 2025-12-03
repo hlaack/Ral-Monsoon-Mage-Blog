@@ -39,3 +39,50 @@ html, body, #root {
 .qa_text_limit {
     max-width: 50ch;
 }
+
+/*DECKLIST FORMATTING*/
+
+.decklist-card:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.decklist-image-container {
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    position: sticky!important;
+}
+
+.decklist-image {
+    max-height: 330px!important;
+}
+
+.masonry {
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 992px) {
+    .decklist-card {
+        max-width: 70%;
+    }
+
+    .masonry {
+        column-count: 1;
+    }
+
+    .decklist-image {
+        max-height: 80%;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+

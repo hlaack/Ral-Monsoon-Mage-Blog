@@ -18,7 +18,7 @@ const router = createBrowserRouter([
 		element: <Layout />,
 		errorElement: <NotFound />,
 		children: [
-			{index: true, element: <HomePage /> },
+			{index: true, element: <HomePage /> }, //DENOTE HOME AS INDEX, ADD PATHS HERE
 			{path: 'decklist', element: <Decklist /> },
 			{path: 'primer', element: <Primer /> },
 		]

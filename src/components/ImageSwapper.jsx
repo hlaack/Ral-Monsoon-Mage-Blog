@@ -1,17 +1,17 @@
 import { useState } from "react";
 import Thrasios from "../assets/Thrasios.png";
-import Tymna from "../assets/Tymna.png";
+import Roger from "../assets/roger.png";
 
 export default function ImageSwapper() {
-	const [front, setFront] = useState("A");
+	const [front, setFront] = useState("A"); //SET INITIAL STATE OF CARD ORDER
 
-	const images = {
+	const images = { //DENOTE IMAGES
 		A: Thrasios,
-		B: Tymna,
+		B: Roger,
 	};
 
 	function swap() {
-		setFront(front === "A" ? "B" : "A");
+		setFront(front === "A" ? "B" : "A"); //IF FRONT IS A, SET TO B, vice versa
 	}
 
 	return (
@@ -21,11 +21,11 @@ export default function ImageSwapper() {
 				maxHeight: "350px",
 			}}
 		>
-			<img
+			<img //BACK IMAGE
 				className="d-block mx-auto shadow pt-2"
 				src={images[front === "A" ?  "B" : "A"]}
 				alt=""
-				onClick={swap}
+				onClick={swap} //CALL SWAP FUNC ON CLICK
 				style={{
 					position:"absolute",
 					maxHeight: "350px",
@@ -33,11 +33,11 @@ export default function ImageSwapper() {
 					transform: "translate(-45px, -45px)",
 					zIndex: 0,
 					transition: "all 0.3s ease-in-out",
-					opacity: 0.6,
+					opacity: 0.6, //KEEP BACK IMAGE FADED
 				}}
 			/>
 
-			<img
+			<img //FRONT IMAGE
 				className="d-block mx-auto shadow pt-2"
 				src={images[front]}
 				alt=""
